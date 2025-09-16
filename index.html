@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="ar">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>موقعي التجريبي</title>
+  <meta name="description" content="هذا موقع تجريبي مبني مجاناً" />
+  <style>
+    body{font-family: Arial, sans-serif;line-height:1.6;padding:20px;background:#f7f7f7}
+    .card{max-width:900px;margin:30px auto;background:white;padding:24px;border-radius:10px;box-shadow:0 4px 12px rgba(0,0,0,0.05)}
+    header h1{margin:0 0 6px}
+    nav a{margin-right:12px;text-decoration:none;color:#0077cc}
+    .hero{margin-top:18px}
+    footer{margin-top:28px;color:#666;font-size:14px}
+  </style>
+</head>
+<body>
+  <div class="card">
+    <header>
+      <h1>أهلاً بك في موقعي</h1>
+      <nav><a href="#">الرئيسية</a><a href="#">عنّي</a><a href="#">اتصل</a></nav>
+    </header>
+
+    <section class="hero">
+      <p>هذه صفحة بداية بسيطة. يمكنك تعديل النصوص، إضافة صور، وروابط شبكات التواصل.</p>
+      <p><strong>نصيحة:</strong> احفظ الملف باسم <code>index.html</code> وارفعه إلى GitHub Pages أو أي استضافة مجانية.</p>
+    </section>
+
+    <footer>
+      &copy; <span id="y"></span> كل الحقوق محفوظة
+    </footer>
+  </div>
+
+  <script>document.getElementById('y').textContent = new Date().getFullYear();</script>
+</body>
+</html>
